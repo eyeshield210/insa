@@ -1,0 +1,4 @@
+tp2/node_modules/*
+poneys/node_modules/.yarn-integrity
+poneys.zip
+.DS_Store

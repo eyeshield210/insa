@@ -1,0 +1,17 @@
+<phpunit>
+  <php>
+    <const name="maxponeys" value="15"/>
+    <const name="defaultponeys" value="8"/>
+  </php>
+  <testsuites>
+    <testsuite name="otherponeys">
+      <file>tests/PoneyOtherTest.php</file>
+    </testsuite>
+    <testsuite name="poneys">
+      <file>tests/PoneysTest.php</file>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <log type="junit" target="testreport.xml"/>
+  </logging>
+</phpunit>
